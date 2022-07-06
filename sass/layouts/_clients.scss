@@ -1,77 +1,75 @@
 /* client logo */
 .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-    @media screen and (min-width: 768px) {
-            
-        }
-    
-    @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
-        }
-
+  }
 }
 
 .clients__heading {
-    margin: 0;
-    margin-bottom: 30px;
-    @media screen and (min-width: 768px) {}
-    
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 50px;
-        }
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
 }
 
 .client-content {
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    
-
-    
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .client-link {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 210px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 210px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    transition: border 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-    @media screen and (min-width: 768px) {
-        width: 226px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        width: 170px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
 }
 
 .client-icon {
-    display: inline-flex;
-    justify-content: center;
-    align-self: center;
-    fill: #AFB1B8;
-    transition: fill 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
+  display: inline-flex;
+  justify-content: center;
+  align-self: center;
+  fill: #afb1b8;
+  transition: fill 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
-    fill: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 
 .client-link:focus,
 .client-link:hover {
-    border: 1px solid var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
 }

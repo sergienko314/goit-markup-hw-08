@@ -486,7 +486,7 @@ body {
 
 /* Comand */
 .our-command {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -498,8 +498,16 @@ body {
 }
 
 .command__heading {
-  margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.1785714286;
+}
+@media screen and (min-width: 1200px) {
+  .command__heading {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.1666666667;
+  }
 }
 
 .command {
@@ -588,7 +596,7 @@ body {
 }
 
 .command__socials--icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -618,10 +626,14 @@ body {
 .clients__heading {
   margin: 0;
   margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.1785714286;
 }
 @media screen and (min-width: 1200px) {
   .clients__heading {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.1666666667;
   }
 }
 
@@ -638,7 +650,7 @@ body {
   align-self: center;
   width: 210px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -658,7 +670,7 @@ body {
   display: inline-flex;
   justify-content: center;
   align-self: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1158,7 +1170,7 @@ body {
 }
 
 .modal {
-  max-width: 450px;
+  width: 450px;
   padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
