@@ -18,7 +18,6 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-
   <body>
     <!-- Шапка сайта -->
     <header class="header-style">
@@ -28,10 +27,10 @@
         >
         <ul class="site-nav list">
           <li class="item">
-            <a href="./index.html" class="primery-nav-link">Студия</a>
+            <a href="./index.html" class="nav-link">Студия</a>
           </li>
           <li class="item">
-            <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            <a href="./portfolio.html" class="primery-nav-link">Портфолио</a>
           </li>
           <li class="item">
             <a href="" class="nav-link">Контакты</a>
@@ -74,6 +73,56 @@
         </button>
       </nav>
     </header>
+    <!-- mobile menu -->
+    <div class="mobile-menu" data-menu>
+      <div class="mobile-menu__section conteiner">
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item">
+              <a href="./index.html" class="mobile-menu__link">Студия</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="./portfolio.html" class="mobile-menu__link--primery"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu__contacts">
+          <ul class="mobile-menu__contact--list list">
+            <li class="mobile-menu__contacts--item">
+              <a href="tel:+380991956428" class="mobile-menu__phone"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="">
+              <a href="mailto:info@devstudio.com" class="mobile-menu__mail"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-menu__social">
+          <ul class="mobile-menu__social--list list">
+            <li>
+              <a class="mobile-menu__social--link" href="">Instagram</a>
+            </li>
+            <li>
+              <a class="mobile-menu__social--link" href="">Twitter</a>
+            </li>
+            <li>
+              <a class="mobile-menu__social--link" href="">Facebook</a>
+            </li>
+            <li>
+              <a class="mobile-menu__social--link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <main>
       <section class="main-project">
         <div class="project-content conteiner">
@@ -590,6 +639,6 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

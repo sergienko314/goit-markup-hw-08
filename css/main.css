@@ -1381,7 +1381,7 @@ body {
 
 .mobile-menu__btn {
   position: relative;
-  z-index: 100;
+  z-index: 1000;
   width: 40px;
   height: 40px;
   padding: 0;
@@ -1418,6 +1418,7 @@ body {
 
 .mobile-menu {
   position: fixed;
+  z-index: 100;
   top: 0;
   height: 100%;
   width: 100%;
