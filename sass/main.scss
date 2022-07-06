@@ -1,0 +1,18 @@
+// base
+@import "./base/base";
+@import "./base/body";
+@import "./base/conteiner";
+@import "./base/reset";
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/hero";   
+@import "./layouts/benefits";
+@import "./layouts/business";
+@import "./layouts/command";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/project";
+@import "./layouts/modal";
+
+@import "./components/mobile-menu";

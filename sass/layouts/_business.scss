@@ -1,0 +1,47 @@
+/* Чем мы занимаемся */
+.business {
+    display: none;
+    padding-bottom: 94px;
+    
+    @media screen and (min-width: 768px) {}
+    
+    @media screen and (min-width: 1200px) {
+       display: grid;
+    }
+}
+
+.business__heading {
+    margin: 0%;
+    margin-bottom: 50px;
+}
+
+.business__list {
+    display: inline-flex;
+    gap: 30px;
+    
+}
+
+.business__list--item {
+    position: relative;
+    width: 370px;
+}
+
+.business__list--title {
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 370px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #FFFFFF;
+
+}
